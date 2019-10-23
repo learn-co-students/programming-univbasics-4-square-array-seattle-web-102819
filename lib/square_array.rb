@@ -1,14 +1,12 @@
 
-
 def square_array(numbers)
+  newSquaredArray =[]
   i = 0
-  squared_numbers = []
 
     while i < numbers.length do
-      squared_numbers.push(numbers[i] = (i+1)**
-      i +=1
+
+      newSquaredArray.push(numbers[i]*numbers[i])
+      i += 1
     end
-
-  p squared_numbers
-
+  newSquaredArray
 end
